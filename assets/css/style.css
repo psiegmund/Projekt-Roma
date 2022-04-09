@@ -1,0 +1,222 @@
+/* -----------------------------
+Importe und Assets
+--------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Tangerine:wght@400;700&display=swap');
+
+@font-face {
+    font-family: "Santio";
+    src: url(../fonts/Santio\ Bold.ttf);
+}
+
+/* -------FONT FAMILIES--------- 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive;
+font-family: "Santio", sans-serif;
+
+----------COLORS-----------------
+
+#e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+
+*/
+
+
+/* -----------------------------
+General Styling
+--------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: "Santio", sans-serif;
+    font-size: 10px;
+}
+
+span {
+    color: #efefef;
+    background-color: #00000099;
+    padding: 4px;
+}
+
+.parallax {
+    background-image: url("../img/cleo-topper.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00000099;
+    background-blend-mode: darken;
+}
+
+/* -----------------------------
+Header Styling
+--------------------------------*/
+
+
+header nav ul {
+    padding: 10px 0 0 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #e7bc0e;
+    color: #efefef;
+    text-decoration: none;
+    width: 100vw;
+    margin: 0 0 0 0vw;
+}
+
+header nav ul li img {
+    width: 1%;
+    margin: 0 20px 0 80vw;
+}
+
+/* -----------------------------
+Main Styling
+--------------------------------*/
+
+main {
+    font-size: 6rem;
+    color: #efefef;
+}
+
+/* -----SECTION: MILLIONS */
+
+#millions {
+    width: 18vw;
+    margin: 20vh 0 0 10vw;
+}
+
+#millions p:last-child {
+    font-family: 'Tangerine', cursive;
+    color: #e7bc0e;
+    font-size: 4rem;
+    margin: 10vh 0 20vh 0;
+}
+
+/* -----SECTION realLifeCleos */
+
+#realLifeCleos {
+    width: 35vw;
+    margin: 50vh 0 0 20vw;
+}
+
+#realLifeCleos p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: #6bc1a3;
+}
+
+/* -------SECTION FACTS--------- */
+
+#facts {
+    margin: 50vh 0 0 10vw;
+}
+
+#facts img {
+    width: 12vw;
+    margin: 30vh 0 30vh 0;
+}
+
+#domesticWorkers {
+    color: #e7bc0e;
+}
+
+#paidLess {
+    color: #cb91b6;
+}
+
+#noInsurance {
+    color: #6bc1a3;
+}
+
+h1 {
+    font-size: 12rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+main section article h2 {
+    padding-bottom: 20px;
+}
+
+/* ------SECTION unsungHeroins-------- */
+
+#unsungHeroins {
+    width: 50vw;
+    margin: 10vh 0 0 35vw;
+}
+
+#unsungHeroins p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: #7eb8e1;
+}
+
+#familyImg {
+    background-image: url(../img/kid.png);
+    background-color: #fff;
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15vh 0 0 0;
+    z-index: 1;
+}
+
+/* ------SECTION donate---------- */
+
+#donate {
+    background-color: #000;
+    padding: 20vh 0 20vh 10vw;
+}
+
+#donate p {
+    font-size: 7rem;
+    width: 40vw;
+    padding: 10vh 0 10vh 0;
+}
+
+#donate a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: #efefef;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid #efefef;
+}
+
+#donate a:hover {
+    box-shadow: 5px 5px #efefef;
+}
+
+/* -----------------------------
+FOOTER STYLE
+--------------------------------*/
+footer {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #efefef;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+footer a {
+    color: #6bc1a3;
+    text-decoration: none;
+}
